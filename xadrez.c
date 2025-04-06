@@ -23,5 +23,17 @@ int main() {
         contadorRainha++;
     } while (contadorRainha <= 8);
 
+    // Simulando o movimento do Cavalo com loops aninhados
+    printf("\nMovimento do Cavalo (2 casas para baixo e 1 para a esquerda):\n");
+    for (int i = 1; i <= 2; i++) { // Loop para mover 2 casas para baixo
+        printf("Casa %d: Baixo\n", i);
+    }
+
+    int contadorCavalo = 1;
+    while (contadorCavalo <= 1) { // Loop para mover 1 casa para a esquerda
+        printf("Casa %d: Esquerda\n", 3); // 3ª etapa do movimento em "L"
+        contadorCavalo++;
+    }
+
     return 0;
 }
